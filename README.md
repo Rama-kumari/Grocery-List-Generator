@@ -15,11 +15,11 @@ Your intelligent grocery shopping assistant powered by AI
 ### Installation ⚙️
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/grocerybot-ai.git
+    https://github.com/Rama-kumari/Grocery-List-Generator.git
     ```
 2. Open in browser:
     ```bash
-    cd grocerybot-ai
+    cd Grocery-List-Generator
     open index.html
     ```
 
@@ -38,14 +38,14 @@ grocerybot-ai/
 ├── styles.css      # Styling for the interface
 ├── script.js       # Core AI logic and interactions
 └── README.md       # Project documentation
+```
 
-
-Technologies 💻
+### Technologies 💻
 Natural Language Processing: Simple pattern matching
 Data Storage: In-memory food database
 Frontend: HTML5, CSS3, JavaScript
 UI Design: Modern gradient-based interface
 Responsive Design: Works on all screen sizes
 
-Credits 👏
+### Credits 👏
 Developed with ❤️ by Reshu & Rama
