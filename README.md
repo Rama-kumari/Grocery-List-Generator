@@ -39,7 +39,7 @@ Start chatting with GroceryBot AI:
 
 ### Code Structure 📁
 ```bash
-grocerybot-ai/
+Grocery-List-Generator/
 ├── index.html      # Main application structure
 ├── styles.css      # Styling for the interface
 ├── script.js       # Core AI logic and interactions
@@ -54,4 +54,4 @@ grocerybot-ai/
 - **Responsive Design**: Works on all screen sizes
 
 ### Credits 👏
-Developed with ❤️ by Reshu & Rama
+Developed with ❤️ by **Reshu** & **Rama**
