@@ -41,11 +41,11 @@ grocerybot-ai/
 ```
 
 ### Technologies 💻
-Natural Language Processing: Simple pattern matching
-Data Storage: In-memory food database
-Frontend: HTML5, CSS3, JavaScript
-UI Design: Modern gradient-based interface
-Responsive Design: Works on all screen sizes
+- **Natural Language Processing**: Simple pattern matching
+- **Data Storage**: In-memory food database
+- **Frontend**: HTML5, CSS3, JavaScript
+- **UI Design**: Modern gradient-based interface
+- **Responsive Design**: Works on all screen sizes
 
 ### Credits 👏
 Developed with ❤️ by Reshu & Rama
