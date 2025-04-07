@@ -5,6 +5,12 @@ A simple and interactive Grocery List Generator Chatbot built with HTML, CSS, an
 ## GroceryBot AI 🛒🤖
 Your intelligent grocery shopping assistant powered by AI
 
+### Demo 🖥️
+
+Here's what the GroceryBot AI looks like in action:
+
+![GroceryBot AI Demo](SS1.png)
+
 ### Features ✨
 - **Smart Suggestions** - Get personalized grocery recommendations
 - **Natural Conversation** - Chat about your grocery needs in plain English
