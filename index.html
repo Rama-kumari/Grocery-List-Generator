@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroceryBot AI - Your Smart Shopping Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="landing-page" class="container">
+        <div class="header">
+            <div class="bot-icon">🤖</div>
+            <h1>GroceryBot AI</h1>
+        </div>
+        
+        <div class="content">
+            <p class="subtitle">Your intelligent grocery shopping assistant powered by AI</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🛒</div>
+                    <h3>Smart Suggestions</h3>
+                    <p>Get personalized grocery recommendations based on your preferences</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Natural Conversation</h3>
+                    <p>Chat naturally about your grocery needs</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Quick Lists</h3>
+                    <p>Generate complete grocery lists with a single prompt</p>
+                </div>
+            </div>
+            
+            <button id="start-button" class="start-button">
+                Start Shopping →
+            </button>
+        </div>
+    </div>
+
+    <div id="chat-page" class="container hidden">
+        <div class="chat-header">
+            <div class="bot-icon">🤖</div>
+            <h2>GroceryBot AI</h2>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                <div class="message-icon">🤖</div>
+                <div class="message-content">
+                    <div class="message-sender">GroceryBot</div>
+                    <div class="message-text">Hello! I'm your grocery shopping assistant. What kind of groceries are you looking for today?</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Type your grocery needs..." autocomplete="off">
+                <button type="submit" id="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="credits">Created by Reshu and Rama</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

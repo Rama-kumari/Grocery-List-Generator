@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a;
+    color: white;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Landing Page Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.bot-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    background: linear-gradient(to right, #10b981, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #94a3b8;
+    margin-bottom: 3rem;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.feature-card {
+    background-color: #1a1f2c;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #10b981;
+}
+
+.feature-card p {
+    color: #94a3b8;
+}
+
+.start-button {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.start-button:hover {
+    background-color: #059669;
+}
+
+/* Chat Page Styles */
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #1e293b;
+    margin-bottom: 2rem;
+}
+
+.chat-header h2 {
+    font-size: 1.5rem;
+    color: #10b981;
+}
+
+.chat-messages {
+    height: calc(100vh - 250px);
+    overflow-y: auto;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.message-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.message-content {
+    background-color: #1a1f2c;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+}
+
+.message-sender {
+    font-weight: 500;
+    color: #10b981;
+    margin-bottom: 0.5rem;
+}
+
+.message-text {
+    color: #e2e8f0;
+}
+
+.bot-message {
+    justify-content: flex-start;
+}
+
+.user-message {
+    justify-content: flex-end;
+}
+
+.user-message .message-content {
+    background-color: #10b981;
+}
+
+.chat-input-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0f172a;
+    padding: 1rem;
+    border-top: 1px solid #1e293b;
+}
+
+#chat-form {
+    display: flex;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 1rem;
+    background-color: #1a1f2c;
+    border: 1px solid #1e293b;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+#chat-input:focus {
+    outline: none;
+    border-color: #10b981;
+}
+
+#send-button {
+    padding: 0 1.5rem;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#send-button:hover {
+    background-color: #059669;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1f2c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #10b981;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #059669;
+}
+
+/* Credits */
+.credits {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    font-style: italic;
+    padding: 8px 12px;
+    background-color: rgba(26, 31, 44, 0.9);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .credits {
+        font-size: 0.8rem;
+        bottom: 70px;
+        right: 10px;
+    }
+} 
